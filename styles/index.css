@@ -64,6 +64,20 @@ ul li i:hover{
 #search-input{
     padding: 20px;
 }
+/* login page*/
+.button{
+    height: 100%;
+    width: 50%;
+    padding: 6px 24px;
+    border: 1px solid black;
+    background: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: larger;
+}
+.button:hover{
+      transform: scale(0.98);
+}
 
 /* main section*/
 

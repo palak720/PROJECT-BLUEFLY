@@ -105,3 +105,6 @@ function displaysearch(randomdata){
         console.error("Error fetching",err);
     }
 })();
+
+/* login page*/
+

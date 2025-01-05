@@ -60,7 +60,22 @@ Stay connected with BlueFly on social media for the latest updates and promotion
 
 ---
 ## Screenshots
-![HomePage](./Assects/Document,screenshot/home%20page.jpg1.jpeg)
+### HomePage
+![HomePage](./Assects/Document,screenshot/HOMEPAGE.PNG)
+
+
+### ClothingPage
+![ClothingPage](./Assects/Document,screenshot/clothing%20page.jpg)
+
+### ShoesPage
+![ShoesPage](./Assects/Document,screenshot/shoes%20page.jpg)
+
+### ContactPage
+![ContactPage](./Assects/Document,screenshot/clothing%20page.jpg)
+
+
+### AddToCartPage
+![AddToCartPage](./Assects/Document,screenshot/Addtocart%20page.jpg)
 
 
 
