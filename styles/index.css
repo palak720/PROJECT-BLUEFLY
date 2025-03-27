@@ -1,4 +1,4 @@
-/* navbar*/
+/* navbar
 *{
     margin: 0%;
     padding: 0%;
@@ -15,11 +15,17 @@ nav{
     background-color:cadetblue;
     padding-top: 15px;
     box-shadow: 0px 2px 2px 2px rgb(162, 162, 162);
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
+    z-index: 1000;
    
 }
+
+body {
+    padding-top: 60px; /* Adjust according to navbar height 
+}
+
  img{
     height: auto;
     width: 25%;
@@ -37,7 +43,7 @@ nav ul li{
 ul li a{
     margin-inline: 22px;
     font-size: 20px;
-    /*display:inline-flex;*/
+    /*display:inline-flex;
     text-decoration: none;
     padding-top: 20px;
 }
@@ -60,11 +66,13 @@ ul li i:hover{
     align-items: center;
 }
 
-/* search bar*/
+/* search bar
+
 #search-input{
     padding: 20px;
 }
-/* login page*/
+/* login page
+
 .button{
     height: 100%;
     width: 50%;
@@ -79,7 +87,7 @@ ul li i:hover{
       transform: scale(0.98);
 }
 
-/* main section*/
+/* main section
 
 .main{
     display: flex;
@@ -167,7 +175,8 @@ ul li i:hover{
     color: rgb(255, 149, 0);
 }
 
-/* banner*/
+/* banner
+
 #banner{
     display: flex;
     flex-direction: column;
@@ -211,7 +220,7 @@ button.normal{
     color: #fff;
 }
 
-/*page news letter*/
+/*page news letter
 .letter{
     display: flex;
     justify-content: space-between;
@@ -236,7 +245,7 @@ button.normal{
     color: white;
     border: none;
 }
-/* footer*/
+/* footer
 .footer{
     display: flex;
     justify-content: center;
@@ -257,7 +266,8 @@ button.normal{
     color: #088178;
 }
 
-/*about*/
+/*about
+
 .about{
     display: none;
 }
@@ -280,7 +290,7 @@ button.normal{
     width: 54%;
 }
 
-/* /contact */
+/* /contact 
 
 .contact{
     display: none;
@@ -333,7 +343,7 @@ button.normal{
     margin-top: 22px;
     
 }
-/* clothing page*/
+/* clothing page
 
 #page-header{
     background-image: url("https://www.pymnts.com/wp-content/uploads/2018/06/bluefly.jpg");
@@ -367,7 +377,8 @@ button.normal{
     font-size: 16px;
     font-weight: 600;
 }
-/*single product*/
+/*single product
+
 #prodetails{
     display: flex;
     margin-top:2  0px;
@@ -418,7 +429,8 @@ button.normal{
     font-size: 16px;
 
 }
-/* shoes page*/
+/* shoes page
+
 #page-header1{
     background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-fresh-and-simple-women-s-shoes-promotion-banner-image_145853.jpg");
     width: 100%;
@@ -430,7 +442,8 @@ button.normal{
     flex-direction: column;
     padding:14px ;
 }
-/* contact page*/
+/* contact page
+
 #page-header2{
     background-image: url("https://wallpapers.com/images/hd/skyscrapers-linkedin-banner-n0kprkgpknm28lal.jpg");
     width: 100%;
@@ -537,7 +550,8 @@ button.normal{
     color: #000;
 }
 
-/*cart page*/
+/*cart page
+
 #cart{
     overflow-x: auto;
 }
@@ -589,7 +603,8 @@ button.normal{
 #cart table tbody  td{
     font-size: 13px;
 }
-/* cart add*/
+/* cart add
+
 #cart-add{
      display: flex;
      flex-wrap: wrap;
@@ -642,7 +657,8 @@ button.normal{
 
 
 
-/* start media query*/
+/* start media query
+
 @media (max-width:788px){
     .li{
         display: flex;
@@ -685,7 +701,8 @@ button.normal{
      #banner {
          height: 10vh;
      }
-     /*contact page*/
+     /*contact page
+
      #form-details{
         padding: 40px;
      }
@@ -705,7 +722,8 @@ button.normal{
         background-position: 55%;
        
     }
-    /*single product*/
+    /*single product
+
     #productdetails{
         display: flex;
         flex-direction: column;
@@ -718,7 +736,8 @@ button.normal{
         width: 100%;
     }
 
-    /*contact page*/
+    /*contact page
+
     #contact-details{
         flex-direction: column;
     }
@@ -738,7 +757,8 @@ button.normal{
          width: 100%;
          margin-bottom: 30px;
     }
-    /* cart page*/
+    /* cart page
+
     #cart-add{
         flex-direction: column;
     }
@@ -749,5 +769,5 @@ button.normal{
         width: 100%;
         padding: 20px;
     }
-}
+}*/
 
