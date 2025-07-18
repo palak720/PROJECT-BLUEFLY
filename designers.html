@@ -1,18 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-   
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="icon" type="image/x-icon" href="/images/icon.jpg">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&family=Marcellus&family=Poppins:ital,wght@0,300;0,500;1,200&family=Tinos&family=Unna&family=Vidaloka&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="./styles/navbar.css">
-    <title>Mens Shoes</title>
-    <script
-    src="https://kit.fontawesome.com/24c494a6b6.js"crossorigin="anonymous"></script>
+    <title>Bluefly: Womens</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&family=Marcellus&family=Poppins:ital,wght@0,300;0,500;1,200&family=Tinos&family=Unna&family=Vidaloka&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js"crossorigin="anonymous"></script>
     <style>
        /* bishnu  */
        .footerFirstDetails>div>img{
@@ -243,15 +243,16 @@
     }
         #bigcontainer{
             height: auto;
-            width: 80%;
+            width: 90%;
             /* border: 1px solid black; */
             display: flex;
             margin: auto;
+            gap: 50px;
             /* margin-top: 150px; */
         }
         #left{
             height: auto;
-            width: 300px;
+            width: 350px;
             border: 0.2px solid rgb(218, 216, 216);  
             margin-top: 40px;
             /* margin-left: 30px; */
@@ -270,12 +271,13 @@
             width: 100%;
             /* border: 1px solid blue; */
             margin-top: 40px;
+            margin-bottom: 40px;
             display: flex;
             justify-content: space-between;
         }
         #pdtbox{
             height: auto;
-            width: 810px;
+            width: 1000px;
             /* border: 1px solid black;  */
             display: grid;
             /* padding: 10px; */
@@ -288,10 +290,6 @@
             text-align: center;
             margin: 10px;
             box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-         }
-         #scroll{
-           overflow: scroll;
-           height: 150px;
          }
          @media only screen and (min-width:70px) and (max-width:420px){
             #pdtbox{
@@ -307,6 +305,7 @@
                 grid-template-columns: repeat(2,1fr);
             }
          }
+        
     </style>
 </head>
 
@@ -316,22 +315,17 @@
             <div id="left">
                 <h3 style="cursor: pointer;">Category</h3>
                 <hr align="left">
-                <h5 style="color:#84c225;">Mens Shoes</h5>
-                        <p id="side">Boots-casual</p>
-                        <p id="side">Boots-Dress</p>
-                        <p id="side">Boots-rain & Winter </p>
-                        <p id="side">Dress-Shoes</p>
+                <h5 style="color:#84c225;"></h5>
+                        <p id="side">Activewear coats & jackets </p>
+                        <p id="side">Activewear Sweatshirts & Hoodies</p>
+                        <p id="side">Activewear Tees & Tops </p>
+                        <p id="side">Backpacks</p>
                         <p id="side">Sandals & FlipFlops </p>
-                
+                        <p id="side">Bracelets & Belts</p>
                <h3> Brand</h3>
                 <hr align="left">
                 <div id="scroll">
-                  <input type="checkbox"  onclick="funclick1()"/>BALENCIAGA <br>
-                  <input type="checkbox"  onclick="funclick2()"/> ALEXANDER MC QUEEN<br>
-                  <input type="checkbox"  onclick="funclick3()"/> BOTTEGA VENETA<br>
-                  <input type="checkbox"  onclick="funclick4()"/> ANTONIO MAURIZI<br>
-                  <input type="checkbox" >AQUATALIA <br>
-                  <input type="checkbox"> ALLEN EDMONDS <br>
+                  <input type="checkbox"  onclick="funclick1()"/>GUCCI<br>
 
                 </div>
                 
@@ -347,7 +341,7 @@
             </div>
             <div id="smallcontainer">
                 <div id="box">
-                    <h1 style="margin: auto;">Men's Shoes</h1>
+                    <h1 style="margin: auto;">Women</h1>
                     <select id="sortby" style="height: 30px; margin-top: 20px;">
                       <option value="">Select Sort</option>
                         <option value="pop">Best Selling</option>
@@ -363,6 +357,7 @@
                 </div>
             </div>
         </div>
+
         <div class="footerFirstDetails">
           <div id="footerf">
               <div id="footerpic">
@@ -437,188 +432,188 @@
 <script>
     var data=[
        {
-         image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1312134872_RLLZ_2_large.jpg?v=1651124962",
-         proName:"BALENCIAGA",
-         detail:"BALENCIAGA TRIPLE S SNEAKER",
-         price:899,
-         strike:"$1050",
-         offer:"Save 14%",
+         image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1313251065_RLLZ_2_large.jpg?v=1651262751",
+         proName:"GUCCI",
+         detail:"GUCCI FETISH 80 LEATHER SANDAL",
+         price:698.99,
+         strike:"$925",
+         offer:"Save 24%",
          qty:1,
        },
        {
-        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1312147418_RLLZ_2_large.jpg?v=1651343551",
-         proName:"ANTONIO MAURIZI",
-         detail:"ANTONIO MAURIZI LEATHER PENNY LOAFER",
-         price:299.99,
-         strike:"$495",
-         offer:"Save 39%",
+         image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/453225-6568-8074143033__2_large.jpg?v=1649754402",
+         proName:"GUCCI",
+         detail:"GUCCI WOMEN'S GHOST RED MODAL SCARF",
+         price:400.00,
+         strike:"$595",
+         offer:"Save 33%",
          qty:1,
        },
        {
-         image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/2226797_large.jpg?v=1649703473",
-         proName:"BALENCIAGA",
-         detail:"TRIPLE S SNEAKER",
-         price:839.73,
-         strike:"$1072",
-         offer:"Save 22%",
+         image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/103770.02_large.jpg?v=1651371488",
+         proName:"GUCCI",
+         detail:"GUCCI GOLD AVIATOR SUNGLASSES",
+         price:199.99,
+         strike:"$395",
+         offer:"Save 49%",
          qty:1,
        },
        {
-        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/2205456_large.jpg?v=1649703242",
-         proName:"ALEXANDER MC QUEEN",
-         detail:"ALEXANDER MC QUEEN OVERSIZED LEATHER SNEAKERS",
-         price:499.99,
-         strike:"$580",
-         offer:"Save 14%",
-         qty:1,
-       },
-       {
-        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/2234064_large.jpg?v=1649703503",
-        proName:"ALEXANDER MC QUEEN",
-         detail:"BLACK/BLACK BOOTS & BOOTY",
-         price:839.73,
-         strike:"$1072",
-         offer:"Save 22%",
-         qty:1,
-       },
-       {
-        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1312121437_RLLZ_2_large.jpg?v=1651338749",
-         proName:"BOTTEGA VENETA",
-         detail:"BOTTEGA VENETA SPEEDSTER MESH & LEATHER SNEAKER",
-         price:629.99,
-         strike:"$790",
-         offer:"Save 20%",
-         qty:1,
-       },
-       {
-         image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1312999174_RLLZ_2_large.jpg?v=1650544187",
-         proName:"ANTONIO MAURIZI",
-         detail:"ANTONIO MAURIZI WINGTIP LEATHER OXFORD",
-         price:169.99,
-         strike:"$495",
-         offer:"Save 66%",
-         qty:1,
-       },
-       {
-         image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/417024-3364-40e__2_large.jpg?v=1649753678",
-         proName:"BOTTEGA VENETA",
-         detail:"BOTTEGA VENETA SPEEDSTER MEN'S MESH HIGH TOP GREEN/BROWN",
-         price:485.00,
-         strike:"$850",
-         offer:"Save 43%",
-         qty:1,
-       },
-       {
-         image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1312192959_RLLZ_2_large.jpg?v=1649956466",
-         proName:"BALENCIAGA",
-         detail:"BALENCIAGA TRACTOR LEATHER BOOTIE",
-         price:849.99,
-         strike:"$1010",
-         offer:"Save 16%",
-         qty:1,
-       },
-       {
-        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1312144613_RLLZ_2_large.jpg?v=1651157915",
-         proName:"BALENCIAGA",
-         detail:"BALENCIAGA SPEED SOCK SNEAKER",
-         price:649.99,
-         strike:"$826",
-         offer:"Save 21%",
-         qty:1,
-       },
-       {
-        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1312192957_RLLZ_2_large.jpg?v=1651013107",
-         proName:"BALENCIAGA",
-         detail:"BALENCIAGA SLIDE",
-         price:269.99,
-         strike:"$325",
-         offer:"Save 17%",
-         qty:1,
-       },
-       {
-        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/2131383_large.jpg?v=1649703039",
-         proName:"ALEXANDER MC QUEEN",
-         detail:"TREAD SANDALS",
-         price:582.87,
-         strike:"$744",
-         offer:"Save 22%",
-         qty:1,
-       },
-       {
-        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/462785-1049-41__2_large.jpg?v=1651308382",
-         proName:"ALEXANDER MC QUEEN",
-         detail:"ALEXANDER MC QUEEN MENS GOLD EMBROIDERED DETAIL",
-         price:575.00,
-         strike:"$1140",
-         offer:"Save 50%",
-         qty:1,
-        },
-        {
-          image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/432360-1000-41__2_large.jpg?v=1651119695",
-         proName:"ALEXANDER MC QUEEN",
-         detail:"ALEXANDER MC QUEEN MENS PATENT BLACK LEATHER BOOTS",
-         price:515,
-         strike:"$725",
-         offer:"Save 29%",
-         qty:1,
-        },
-        {
-        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1312199430_RLLZ_2_large.jpg?v=1649153979",
-         proName:"BOTTEGA VENETA",
-         detail:"BOTTEGA VENETA LEATHER BOOT",
-         price:899.99,
-         strike:"$1100",
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1313122420_RLLZ_2_large.jpg?v=1649157448",
+         proName:"GUCCI",
+         detail:"BALENCIAGA FETISH 80 LEATHER SANDAL",
+         price:799.99,
+         strike:"$980",
          offer:"Save 18%",
          qty:1,
        },
        {
-        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/2015408_large.jpg?v=1636500223",
-         proName:"BOTTEGA VENETA",
-         detail:"BOTTEGA VENETA SEA SALT SNEAKER",
-         price:1630.06,
-         strike:"$2002",
-         offer:"Save 22%",
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/566161-xjav9-4804__2_large.jpg?v=1651426075",
+         proName:"GUCCI",
+         detail:"GUCCI FLORAL LACE BOMBER JACKET",
+         price:1699.99,
+         strike:"$3193",
+         offer:"Save 48%",
          qty:1,
        },
        {
-        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/629252_201909-2_large.png?v=1649821446",
-         proName:"BOTTEGA VENETA",
-         detail:"BOTTEGA VENETA MEN'S WHITE/BLACK LEATHER SANDALS",
-         price:415.00,
-         strike:"$480",
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/edt-1641509988173_large.jpg?v=1651422763",
+         proName:"GUCCI",
+         detail:"GUCCI COLLAR WITH FUR COLLAR DETAIL IN BLACK",
+         price:3353,
+         strike:"$7169",
+         offer:"Save 53%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1HGUBP017_2_large.jpg?v=1651522358",
+         proName:"GUCCI",
+         detail:"GUCCI BAMBOO LEATHER BACKPACK",
+         price:618.00,
+         strike:"$1445",
+         offer:"Save 57%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1DGUBP004-1_10_large.jpg?v=1651531503",
+         proName:"GUCCI",
+         detail:"PREOWNED GUCCI BAMBOO LEATHER BACKPACK",
+         price:546.99,
+         strike:"$1445",
+         offer:"Save 62%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1313198110_RLLZ_2_large.jpg?v=1648912843",
+         proName:"GUCCI",
+         detail:"ALEXANDER MC QUEEN CRYSTAL SUEDE SANDAL",
+         price:1059.99,
+         strike:"$1250",
+         offer:"Save 15%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/2216041_large.jpg?v=1649703347",
+         proName:"GUCCI",
+         detail:"ALEXANDER MC QUEEN CRYSTAL SANDALI",
+         price:782.73,
+         strike:"$1249",
+         offer:"Save 37%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1313921749_RLLZ_2_large.jpg?v=1651339877",
+         proName:"GUCCI",
+         detail:"BOTTEGA VENETA THE LIDO LEATHER SANDAL",
+         price:649.99,
+         strike:"$760",
          offer:"Save 14%",
          qty:1,
        },
        {
-         image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1312147415_RLLZ_2_large.jpg?v=1651394283",
-         proName:"ANTONIO MAURIZI",
-         detail:"ANTONIO MAURIZI TASSEL LEATHER LOAFER",
-         price:230.99,
-         strike:"$475",
-         offer:"Save 51%",
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1313256624_RLLZ_2_large.jpg?v=1651558204",
+         proName:"GUCCI",
+         detail:"BOTTEGA VENETA THE LIDO LEATHER SANDAL",
+         price:1139.99,
+         strike:"$1300",
+         offer:"Save 12%",
          qty:1,
        },
        {
-         image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1312999150_RLLZ_2_large.jpg?v=1651345104",
-         proName:"ANTONIO MAURIZI",
-         detail:"ANTONIO MAURIZI PLAIN TOE LEATHER BOOT",
-         price:156.99,
-         strike:"$550",
-         offer:"Save 71%",
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/57972565_large.jpg?v=1651526743",
+         proName:"GUCCI",
+         detail:"PRE OWNED BUMBULBEE COIN BRACELET",
+         price:316.99,
+         strike:"$800",
+         offer:"Save 61%",
+         qty:1,
+        },
+        {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/GLJ1KGUCB002_2_large.jpg?v=1651520476",
+         proName:"GUCCI",
+         detail:"PRE OWNED BUMBULBEE LEATHER BRACELET",
+         price:261,
+         strike:"$625",
+         offer:"Save 58%",
+         qty:1,
+        },
+        {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/gucci-triple-wrap-snake-bracelet-with-crystals-in-white-runway-catalog-949616_large.jpg?v=1650984629",
+         proName:"GUCCI",
+         detail:"TRIPLE WRAP SNAKE BRACELET WITH CRYSTALS",
+         price:3250,
+         strike:"$3875",
+         offer:"Save 16%",
          qty:1,
        },
        {
-         image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1312147425_RLLZ_2_large.jpg?v=1651365113",
-         proName:"ANTONIO MAURIZI",
-         detail:"ANTONIO MAURIZI PLAIN TOE LEATHER OXFORD",
-         price:289.99,
-         strike:"$475",
-         offer:"Save 39%",
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/gucci-snake-motif-crystal-embellished-bracelet-runway-catalog-365130_e6834128-46da-483a-8b42-fdb0fab46695_large.jpg?v=1650909161",
+         proName:"GUCCI",
+         detail:"GUCCI SNAKE MOTIF BRACELET WITH CRYSTALS",
+         price:2031,
+         strike:"$3066",
+         offer:"Save 32%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/269813-e7i0t-2140-38__2_large.jpg?v=1651126219",
+         proName:"GUCCI",
+         detail:"DOLCE & GABBANA BLACK LEATHER STILETTO SANDALS",
+         price:364.04,
+         strike:"$835",
+         offer:"Save 56%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/257319-e7i0t-2140-95__2_large.jpg?v=1651312288",
+         proName:"GUCCI",
+         detail:"GUCCI WOMEN'S GOLD SQUARE BUCKLE DARK BROWN",
+         price:515,
+         strike:"$895",
+         offer:"Save 42%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/388992-8061-95-38__3_large.jpg?v=1651124764",
+         proName:"GUCCI",
+         detail:"GUCCI WOMEN'S CHAIN TASSEL GOLD",
+         price:340,
+         strike:"$495",
+         offer:"Save 31%",
+         qty:1,
+       },
+       {
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/66637744_large.jpg?v=1651544392",
+         proName:"GUCCI",
+         detail:" GUCCI PRE OWNED LEATHER BELT",
+         price:446,
+         strike:"$653",
+         offer:"Save 32%",
          qty:1,
        },
        ];
 
-       var datafromlocal=JSON.parse(localStorage.getItem("Mens-shoes"))||[];
+       var datafromlocal=JSON.parse(localStorage.getItem("designers"))||[];
        displayData(data);
        function displayData(data){
       document.querySelector("#pdtbox").innerHTML="";
@@ -665,7 +660,7 @@
            div.append(div2,image,div3,div4,); 
 
            document.querySelector("#pdtbox").append(div);
-           localStorage.setItem("Mens-shoes",JSON.stringify(data));
+           localStorage.setItem("designers",JSON.stringify(data));
            
        })
 
@@ -736,46 +731,14 @@
        
         abc1();
     }
-    var count2=0;
-    function funclick2(){
-        if(count2==0){
-            b=1;
-            count2++;  
-        }else{
-            b=0;
-            count2--;
-        }
-        abc2();
-    }
-    var count3=0;
-    function funclick3(){
-        if(count3==0){
-            c=1;
-            count3++;  
-        }else{
-            c=0;
-            count3--;
-        }
-        abc3(); 
-    }
-    var count4=0;
-    function funclick4(){
-        if(count4==0){
-            d=1;
-            count4++;  
-        }else{
-            d=0;
-            count4--;
-        }
-        abc4();
-    }
+   
     var checkBoxArr=[];
      
     function abc1(){
       if(a==1){
         var w=[]
         data.map(function(ele){
-          if(ele.proName=="BALENCIAGA"){
+          if(ele.proName=="GUCCI"){
             
             w.push(ele);
             displayData(w);
@@ -785,45 +748,7 @@
         displayData(data);
       }
     }
-   function abc2(){
-      if(b==1){
-        var x=[]
-         data.map(function(ele){
-           if(ele.proName=="ALEXANDER MC QUEEN"){
-             x.push(ele);
-             displayData(x);
-           }
-         })
-       }else{
-         displayData(data);
-       }
-      }
-  function abc3(){
-       if(c==1){
-        var y=[];
-         data.map(function(ele){
-           if(ele.proName=="BOTTEGA VENETA"){
-             y.push(ele);
-             displayData(y);
-           }
-         })
-       }else{
-         displayData(data);
-       }
-      }
-       function abc4(){
-       if(d==1){
-         var z=[];
-         data.map(function(ele){
-           if(ele.proName=="ANTONIO MAURIZI"){
-             z.push(ele);
-             displayData(z);
-           }
-         })
-       }else{
-         displayData(data);
-       }
-    }
+   
 //--------------------- End of CheckBox Brand----------------------------
 //-----------------------------checkBox Price-------------------------------
 var a=b=c=d=0; var count1=0;
@@ -928,7 +853,6 @@ var a=b=c=d=0; var count1=0;
     //_---------------------------end of CheckBox Price-------------------------   
      
 </script>
-
 <script type="module" >
   import {navbar} from "./components/navbar.js"
   let nav=document.getElementById("navbar").innerHTML=navbar();

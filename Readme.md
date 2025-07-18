@@ -61,27 +61,12 @@ Stay connected with BlueFly on social media for the latest updates and promotion
 ---
 ## Screenshots
 ### HomePage
-![HomePage](./Assects/Document,screenshot/HOMEPAGE.PNG)
+![HomePage](./Assects/Document,screenshot/homepage.jpg)
 
 
-### ClothingPage
-![ClothingPage](./Assects/Document,screenshot/clothing%20page.jpg)
-
-### ShoesPage
-![ShoesPage](./Assects/Document,screenshot/shoes%20page.jpg)
-
-### ContactPage
-![ContactPage](./Assects/Document,screenshot/contact%20page.jpg)
-
-
-### AddToCartPage
-![AddToCartPage](./Assects/Document,screenshot/Addtocart%20page.jpg)
-
-### Deployed Frontend Link:
-Check out the deployed frontend of BlueFly.com at [BlueFly.com]( https://palak720.github.io/PROJECT-BLUEFLY/)
 
 ### Deplyed Backend Link:
-Check out the deployed backend of BlueFly.com at [BlueFly.com](https://universal-snowy-visitor.glitch.me/)
+Check out the deployed backend of BlueFly.com at [BlueFly.com](https://project-bluefly-palaknetlify.netlify.app/)
 
 
 Thank you for visiting BlueFly.com! We hope you enjoy your shopping experience with us.
