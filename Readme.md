@@ -66,7 +66,7 @@ Stay connected with BlueFly on social media for the latest updates and promotion
 
 
 ### Deplyed Backend Link:
-Check out the deployed backend of BlueFly.com at [BlueFly.com](https://rainbow-peony-567a66.netlify.app/)
+Check out the deployed backend of BlueFly.com at [BlueFly.com](https://project-bluefly-palaknetlify.netlify.app/)
 
 
 Thank you for visiting BlueFly.com! We hope you enjoy your shopping experience with us.
